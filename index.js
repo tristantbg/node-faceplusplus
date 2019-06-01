@@ -11,7 +11,7 @@ var SDK = function(config) {
 };
 
 SDK.prototype.apiUrl = function(path){
-	return 'https://api-' + this.region + '.faceplusplus.com/facepp/v3' + path;
+	return 'https://api-' + this.region + '.faceplusplus.com/facepp/v3/' + path;
 };
 
 SDK.prototype.get = function(path, data, callback){
